@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Java Script</title>
+
+  <script src="jquery-3.7.1.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="myScript.js"></script>
+
+  <script>
+    var toggle = false;
+    function myFunction_head_01()
+    {
+      if (toggle === false)
+      {
+        document.getElementById("demo02").innerHTML = "Header JavaScript say's 'bonjour', 'hello' in French";
+        toggle = true;
+      }
+      else
+      {
+        document.getElementById("demo02").innerHTML = "Header JavaScript say's 'Au revoir', 'Goodbye' in French";
+        toggle = false;
+      }
+    }
+  </script>
+
+</head>
+
+<body onload="myScript_onload()">
+  <div class="container">
+    <h1>Java Script</h1>
+    <p>Here we look at the most baisc JavaScript</p>
+    <a href="./index.html"><h2>Click here to return to Main Page!</h2></a>
+  </div>
+
+<h1>Some JavaScript</h1>
+<pre>
+We will add:
+	#01 Inline JavaScript
+	#02 Header JavaScript
+	#03 External JavaScript
+	#04 Add JQuery
+	#05 Add Text at a Pharagraph with an ID
+	#06 Toggle Pharagraph Text
+#07 Hide and Show a Pharagraph
+	#08 Toggle an Image
+	#09 Show a Date and Time
+	#10 Basic Logic
+	#11 Basic Maths
+	#12 A Button
+	#13 Hide a DIV
+#14 Take Text Field Entires
+	#15 Do something when web page fully loads
+#16 Have image act like a button
+#17 Have a feature that shows something each second. Eg:/ Clock
+#18 Have an Sprite Animation
+</pre>
+
+<p id="myScript_onload_text"></p>
+
+<p id="demo01"></p>
+
+<script>
+document.getElementById("demo01").innerHTML = "This text is Inline JavaScript changing a Pharagraph to French! See #01,#05,#10";
+</script>
+
+<p id="demo02">This Text will Change on Button Click #02, #06, #12</p>
+<button type="button" onclick="myFunction_head_01()">Toggle French</button>
+
+<p>Use External file myScript.js to hide a DIV #03, #12</p>
+<button onclick="myScript_myFunction_01()">Hide DIV</button>
+<div id="myDIV">
+  This is my DIV element.
+</div>
+
+<p>Toggle the Light on and off #12, #08</p>
+<img id="myLightImage" src="images/pic_bulboff.gif" width="100" height="180">
+<br/>
+<button type="button" onclick="myScript_function_light()">Toggle Light</button>
+
+<h4>Try and make image the button</h4>
+<p>It works but is this best? Can I remove the border?</p>
+<button type="button" onclick="myScript_function_light_02()">
+<img id="myLightImage_02" src="images/pic_bulboff.gif" width="100" height="180">
+<br/>
+</button>
+
+<p>Pass 2 values to a function and get a value. Multiplication. Send 5*3 #11</p>
+<p>Show the Muliplication values here!</p>
+<p id="myScript_multiplication01"></p>
+<p>Please also see in Console</p>
+<button type="button" onclick="myScript_multiplication(5,3)">Do Multiplication</button>
+
+<h1>JQuery</h1>
+<p>Do Basic JQuery. JQuery was added to this index.html file. This is added to the External myScript.js #04</p>
+<p>It will hide all H3 on Click</p>
+<h3>I am H3, hide me<h3>
+<h3>I am H3, hide me too</>
+<h3>I am H3, hide me as well</h3>
+
+
+<h1>Dates</h1>
+<p>Show Various Dates and Times #09</p>
+<button type="button" onclick="myScript_dates()">Show Dates</button>
+<p id="myScript_dates_date_01"></p>
+<p id="myScript_dates_date_02"></p>
+<p id="myScript_dates_date_03"></p>
+<p id="myScript_dates_date_04"></p>
+<p id="myScript_dates_date_05"></p>
+<p id="myScript_dates_date_06"></p>
+<p id="myScript_dates_date_07"></p>
+<p id="myScript_dates_date_08"></p>
+<p id="myScript_dates_date_09"></p>
+<p id="myScript_dates_date_10"></p>
+<p id="myScript_dates_date_11"></p>
+<p id="myScript_dates_date_12"></p>
+<p id="myScript_dates_date_13"></p>
+<p id="myScript_dates_date_14"></p>
+<p id="myScript_dates_date_15"></p>
+<p id="myScript_dates_date_16"></p>
+<p id="myScript_dates_date_17"></p>
+<p id="myScript_dates_date_18"></p>
+<p id="myScript_dates_date_19"></p>
+<p id="myScript_dates_date_20"></p>
+<p id="myScript_dates_date_21"></p>
+<br/>
+
+</body>
+</html>
