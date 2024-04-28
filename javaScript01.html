@@ -63,9 +63,18 @@ We will add:
 <p id="myScript_onload_text"></p>
 
 <p id="demo01"></p>
+<p id="demo01B"></p>
+
 
 <script>
 document.getElementById("demo01").innerHTML = "This text is Inline JavaScript changing a Pharagraph to French! See #01,#05,#10";
+</script>
+
+<script>
+  var a = Number(2);
+  var b = Number(5);
+  var c = Number(10); 2*5*10
+  document.getElementById("demo01B").innerHTML = "2 * 5 * 10 is (This is inline) = " + a * b * c;
 </script>
 
 <p id="demo02">This Text will Change on Button Click #02, #06, #12</p>
@@ -97,7 +106,7 @@ document.getElementById("demo01").innerHTML = "This text is Inline JavaScript ch
 
 <h1>JQuery</h1>
 <p>Do Basic JQuery. JQuery was added to this index.html file. This is added to the External myScript.js #04</p>
-<p>It will hide all H3 on Click</p>
+<p>It will each H3 on Click</p>
 <h3>I am H3, hide me<h3>
 <h3>I am H3, hide me too</>
 <h3>I am H3, hide me as well</h3>
@@ -106,6 +115,7 @@ document.getElementById("demo01").innerHTML = "This text is Inline JavaScript ch
 <h1>Dates</h1>
 <p>Show Various Dates and Times #09</p>
 <button type="button" onclick="myScript_dates()">Show Dates</button>
+<button type="button" onclick="myScript_dates_hide()">Hide Dates</button>
 <p id="myScript_dates_date_01"></p>
 <p id="myScript_dates_date_02"></p>
 <p id="myScript_dates_date_03"></p>

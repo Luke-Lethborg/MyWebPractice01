@@ -115,3 +115,28 @@ document.getElementById("myScript_dates_date_19").innerHTML = date_19;
 document.getElementById("myScript_dates_date_20").innerHTML = date_20;
 document.getElementById("myScript_dates_date_21").innerHTML = date_21;
 }
+
+function myScript_dates_hide()
+{
+document.getElementById("myScript_dates_date_01").innerHTML = "";
+document.getElementById("myScript_dates_date_02").innerHTML = "";
+document.getElementById("myScript_dates_date_03").innerHTML = "";
+document.getElementById("myScript_dates_date_04").innerHTML = "";
+document.getElementById("myScript_dates_date_05").innerHTML = "";
+document.getElementById("myScript_dates_date_06").innerHTML = "";
+document.getElementById("myScript_dates_date_07").innerHTML = "";
+document.getElementById("myScript_dates_date_08").innerHTML = "";
+document.getElementById("myScript_dates_date_09").innerHTML = "";
+document.getElementById("myScript_dates_date_10").innerHTML = "";
+document.getElementById("myScript_dates_date_11").innerHTML = "";
+document.getElementById("myScript_dates_date_12").innerHTML = "";
+document.getElementById("myScript_dates_date_13").innerHTML = "";
+document.getElementById("myScript_dates_date_14").innerHTML = "";
+document.getElementById("myScript_dates_date_15").innerHTML = "";
+document.getElementById("myScript_dates_date_16").innerHTML = "";
+document.getElementById("myScript_dates_date_17").innerHTML = "";
+document.getElementById("myScript_dates_date_18").innerHTML = "";
+document.getElementById("myScript_dates_date_19").innerHTML = "";
+document.getElementById("myScript_dates_date_20").innerHTML = "";
+document.getElementById("myScript_dates_date_21").innerHTML = "";
+}
